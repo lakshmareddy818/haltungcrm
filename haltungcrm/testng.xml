@@ -3,6 +3,7 @@
     <classes>
       <class name="com.haltungcrm.action.VerifyCampaignCreation"/>
       <class name="com.haltungcrm.action.CreateProjectTest"/>
+      
     </classes>
   </test> 
 </suite> 
