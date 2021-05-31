@@ -15,7 +15,7 @@ import com.haltungcrm.pages.LoginPage;
 @Listeners(com.haltungcrm.genericlib.MyListeners.class)
 public class VerifyActionEdit extends BaseTest {
 
-	 @Test
+ @Test
 	public void VerifyActionEdit() throws Throwable {
 		LoginPage lp=new LoginPage();
 		HomePage hp = new HomePage();
