@@ -13,7 +13,7 @@ public class DisplayingCustomViewDetailsPage {
 	
    @FindBy(xpath="//input[@value='New Campaign']") private WebElement NewCampaignBtn;
   @FindBy(xpath="//table[@class='secContent']//tbody//tr[*]//td[@class=\"tableData\"][3]") private List<WebElement> campaignList;
-  
+  @FindBy(xpath="//a[text()='n']") private WebElement nlink;
 	//@FindBy(xpath="//input[@value='New Lead']") private WebElement NewLeadBtn;
 	
 	
@@ -67,8 +67,19 @@ public class DisplayingCustomViewDetailsPage {
 	  
 	  }
 	  
-	  
 	  }
+
+
+
+
+	public WebElement getNlink() {
+		return nlink;
+	}
+	public void clicknlink() {
+		nlink.click();
+		
+	}
+	
 	  
 	  }
 	  

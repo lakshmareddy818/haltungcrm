@@ -2,22 +2,59 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Demo tests are running successfully]]>
+      <![CDATA[Default testTest Runner Started]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[VerifyActionEdit Started]]>
+    </line>
+    <line>
+      <![CDATA[Home Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Custom View Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Campaign View Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[VerifyActionEdit Passed]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="40" started-at="2021-05-29T23:03:43 IST" finished-at="2021-05-29T23:03:43 IST">
+  <suite name="Default suite" duration-ms="13696" started-at="2021-05-31T17:16:43 IST" finished-at="2021-05-31T17:16:56 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="40" started-at="2021-05-29T23:03:43 IST" finished-at="2021-05-29T23:03:43 IST">
-      <class name="com.haltungcrm.action.Demo">
-        <test-method status="PASS" signature="run()[pri:0, instance:com.haltungcrm.action.Demo@528931cf]" name="run" duration-ms="8" started-at="2021-05-29T23:03:43 IST" finished-at="2021-05-29T23:03:43 IST">
+    <test name="Default test" duration-ms="13696" started-at="2021-05-31T17:16:43 IST" finished-at="2021-05-31T17:16:56 IST">
+      <class name="com.haltungcrm.action.VerifyActionEdit">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.haltungcrm.action.VerifyActionEdit@396e2f39]" name="openBrowser" is-config="true" duration-ms="9801" started-at="2021-05-31T17:16:43 IST" finished-at="2021-05-31T17:16:52 IST">
           <reporter-output>
             <line>
-              <![CDATA[Demo tests are running successfully]]>
+              <![CDATA[LoginPage is Displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- run -->
-      </class> <!-- com.haltungcrm.action.Demo -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="VerifyActionEdit()[pri:0, instance:com.haltungcrm.action.VerifyActionEdit@396e2f39]" name="VerifyActionEdit" duration-ms="3819" started-at="2021-05-31T17:16:52 IST" finished-at="2021-05-31T17:16:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[VerifyActionEdit Started]]>
+            </line>
+            <line>
+              <![CDATA[Home Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Custom View Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Campaign View Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[VerifyActionEdit Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyActionEdit -->
+      </class> <!-- com.haltungcrm.action.VerifyActionEdit -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

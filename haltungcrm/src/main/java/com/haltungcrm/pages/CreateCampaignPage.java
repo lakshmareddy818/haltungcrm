@@ -13,6 +13,8 @@ public class CreateCampaignPage {
 	
 	@FindBy(xpath = "//td[contains(text(),'Create Campaign')]/ancestor::table /following-sibling::table[2]/descendant::input[@value='Save']")
 	private WebElement saveBtn;
+	@FindBy(xpath="//td[@id='mouseArea__Description']/ancestor::table/following-sibling::table[1]/descendant::input[@value='Edit']")
+	private WebElement editBtn;
 
 	public CreateCampaignPage() {
 		PageFactory.initElements(BaseTest.driver, this);
@@ -35,5 +37,15 @@ public class CreateCampaignPage {
     	saveBtn.click();
     
 	}
+
+	public WebElement getEditBtn() {
+		return editBtn;
+	}
+    public void clickeditBtn() {
+    	editBtn.click();
+		
+	}
+    
+    
 
 }

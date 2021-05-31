@@ -45,7 +45,7 @@ import com.haltungcrm.pages.HomePage;
 	CreateCampaignPage cc = new CreateCampaignPage();
 	cc.enterCampaignName("Reddy");
 	cc.clicksavebtn();
-	Thread.sleep(5000);
+	Thread.sleep(3000);
 	hp.clickCampaignsLink();
 	Thread.sleep(5000);
 	
