@@ -30,7 +30,7 @@ import com.haltungcrm.pages.HomePage;
 	HomePage hp = new HomePage();
 	hp.clickCampaignsLink();
 	
-	Thread.sleep(3000);
+	Thread.sleep(2000);
 	
 	WebDriverCommonLib wd= new WebDriverCommonLib();
 	FileLib fl = new FileLib();
