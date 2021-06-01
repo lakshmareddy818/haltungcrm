@@ -40,7 +40,7 @@ import com.haltungcrm.pages.HomePage;
    //click on new campaign button
 	DisplayingCustomViewDetailsPage dc= new DisplayingCustomViewDetailsPage();
 	dc.clickNewCampaignBtn();
-	
+	Thread.sleep(3000);
 	wd.verify(wd.getPageTitle(), fl.readPropData(PROP_PATH,  "CreateCampaignTitle"), "Create Campaign Page");
 	
 	CreateCampaignPage cc = new CreateCampaignPage();
