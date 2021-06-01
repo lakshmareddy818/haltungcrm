@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
     <line>
-      <![CDATA[Default testTest Runner Started]]>
+      <![CDATA[TestTest Runner Started]]>
     </line>
     <line>
       <![CDATA[LoginPage is Displayed]]>
     </line>
     <line>
-      <![CDATA[VerifyEditButton Started]]>
+      <![CDATA[loginToApp Started]]>
+    </line>
+    <line>
+      <![CDATA[ Home Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[loginToApp Passed]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[verifyCampaignTest Started]]>
+    </line>
+    <line>
+      <![CDATA[ Home Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Custom View Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Create Campaign Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[verifyCampaignTest Passed]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[VerifyEditButtonTest Started]]>
     </line>
     <line>
       <![CDATA[Home Page is Displayed]]>
@@ -20,25 +50,25 @@
       <![CDATA[Campaign View Page is Displayed]]>
     </line>
     <line>
-      <![CDATA[VerifyEditButton Passed]]>
+      <![CDATA[VerifyEditButtonTest Passed]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29366" started-at="2021-06-01T12:37:10 IST" finished-at="2021-06-01T12:37:40 IST">
+  <suite name="Suite" duration-ms="67449" started-at="2021-06-01T14:18:13 IST" finished-at="2021-06-01T14:19:21 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29366" started-at="2021-06-01T12:37:10 IST" finished-at="2021-06-01T12:37:40 IST">
+    <test name="Test" duration-ms="67449" started-at="2021-06-01T14:18:13 IST" finished-at="2021-06-01T14:19:21 IST">
       <class name="com.haltungcrm.action.VerifyEditButton">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.haltungcrm.action.VerifyEditButton@396e2f39]" name="openBrowser" is-config="true" duration-ms="16064" started-at="2021-06-01T12:37:10 IST" finished-at="2021-06-01T12:37:27 IST">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.haltungcrm.action.VerifyEditButton@12c8a2c0]" name="openBrowser" is-config="true" duration-ms="11861" started-at="2021-06-01T14:19:05 IST" finished-at="2021-06-01T14:19:17 IST">
           <reporter-output>
             <line>
               <![CDATA[LoginPage is Displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="VerifyEditButton()[pri:0, instance:com.haltungcrm.action.VerifyEditButton@396e2f39]" name="VerifyEditButton" duration-ms="13211" started-at="2021-06-01T12:37:27 IST" finished-at="2021-06-01T12:37:40 IST">
+        <test-method status="PASS" signature="VerifyEditButtonTest()[pri:0, instance:com.haltungcrm.action.VerifyEditButton@12c8a2c0]" name="VerifyEditButtonTest" duration-ms="3921" started-at="2021-06-01T14:19:17 IST" finished-at="2021-06-01T14:19:21 IST">
           <reporter-output>
             <line>
-              <![CDATA[VerifyEditButton Started]]>
+              <![CDATA[VerifyEditButtonTest Started]]>
             </line>
             <line>
               <![CDATA[Home Page is Displayed]]>
@@ -50,11 +80,61 @@
               <![CDATA[Campaign View Page is Displayed]]>
             </line>
             <line>
-              <![CDATA[VerifyEditButton Passed]]>
+              <![CDATA[VerifyEditButtonTest Passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- VerifyEditButton -->
+        </test-method> <!-- VerifyEditButtonTest -->
       </class> <!-- com.haltungcrm.action.VerifyEditButton -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.haltungcrm.action.VerifyCampaignCreation">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.haltungcrm.action.VerifyCampaignCreation@a74868d]" name="openBrowser" is-config="true" duration-ms="7708" started-at="2021-06-01T14:18:29 IST" finished-at="2021-06-01T14:18:37 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[LoginPage is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyCampaignTest()[pri:0, instance:com.haltungcrm.action.VerifyCampaignCreation@a74868d]" name="verifyCampaignTest" duration-ms="28013" started-at="2021-06-01T14:18:37 IST" finished-at="2021-06-01T14:19:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyCampaignTest Started]]>
+            </line>
+            <line>
+              <![CDATA[ Home Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Custom View Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Create Campaign Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[verifyCampaignTest Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCampaignTest -->
+      </class> <!-- com.haltungcrm.action.VerifyCampaignCreation -->
+      <class name="com.haltungcrm.action.ValidLoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.haltungcrm.action.ValidLoginTest@396e2f39]" name="openBrowser" is-config="true" duration-ms="12512" started-at="2021-06-01T14:18:13 IST" finished-at="2021-06-01T14:18:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[LoginPage is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.haltungcrm.action.ValidLoginTest@396e2f39]" name="loginToApp" duration-ms="3382" started-at="2021-06-01T14:18:26 IST" finished-at="2021-06-01T14:18:29 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[loginToApp Started]]>
+            </line>
+            <line>
+              <![CDATA[ Home Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[loginToApp Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+      </class> <!-- com.haltungcrm.action.ValidLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
