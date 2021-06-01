@@ -25,11 +25,12 @@ import com.haltungcrm.pages.HomePage;
 	ValidLoginTest vl= new ValidLoginTest();
 	vl.loginToApp();
 	
+	Thread.sleep(3000);
 	//click on compaign(action)  module
 	HomePage hp = new HomePage();
 	hp.clickCampaignsLink();
 	
-	
+	Thread.sleep(3000);
 	
 	WebDriverCommonLib wd= new WebDriverCommonLib();
 	FileLib fl = new FileLib();

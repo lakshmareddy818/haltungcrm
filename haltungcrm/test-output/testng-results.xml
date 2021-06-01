@@ -8,7 +8,7 @@
       <![CDATA[LoginPage is Displayed]]>
     </line>
     <line>
-      <![CDATA[VerifyActionEdit Started]]>
+      <![CDATA[VerifyEditButton Started]]>
     </line>
     <line>
       <![CDATA[Home Page is Displayed]]>
@@ -20,25 +20,25 @@
       <![CDATA[Campaign View Page is Displayed]]>
     </line>
     <line>
-      <![CDATA[VerifyActionEdit Passed]]>
+      <![CDATA[VerifyEditButton Passed]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13696" started-at="2021-05-31T17:16:43 IST" finished-at="2021-05-31T17:16:56 IST">
+  <suite name="Default suite" duration-ms="29366" started-at="2021-06-01T12:37:10 IST" finished-at="2021-06-01T12:37:40 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13696" started-at="2021-05-31T17:16:43 IST" finished-at="2021-05-31T17:16:56 IST">
-      <class name="com.haltungcrm.action.VerifyActionEdit">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.haltungcrm.action.VerifyActionEdit@396e2f39]" name="openBrowser" is-config="true" duration-ms="9801" started-at="2021-05-31T17:16:43 IST" finished-at="2021-05-31T17:16:52 IST">
+    <test name="Default test" duration-ms="29366" started-at="2021-06-01T12:37:10 IST" finished-at="2021-06-01T12:37:40 IST">
+      <class name="com.haltungcrm.action.VerifyEditButton">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.haltungcrm.action.VerifyEditButton@396e2f39]" name="openBrowser" is-config="true" duration-ms="16064" started-at="2021-06-01T12:37:10 IST" finished-at="2021-06-01T12:37:27 IST">
           <reporter-output>
             <line>
               <![CDATA[LoginPage is Displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="VerifyActionEdit()[pri:0, instance:com.haltungcrm.action.VerifyActionEdit@396e2f39]" name="VerifyActionEdit" duration-ms="3819" started-at="2021-05-31T17:16:52 IST" finished-at="2021-05-31T17:16:56 IST">
+        <test-method status="PASS" signature="VerifyEditButton()[pri:0, instance:com.haltungcrm.action.VerifyEditButton@396e2f39]" name="VerifyEditButton" duration-ms="13211" started-at="2021-06-01T12:37:27 IST" finished-at="2021-06-01T12:37:40 IST">
           <reporter-output>
             <line>
-              <![CDATA[VerifyActionEdit Started]]>
+              <![CDATA[VerifyEditButton Started]]>
             </line>
             <line>
               <![CDATA[Home Page is Displayed]]>
@@ -50,11 +50,11 @@
               <![CDATA[Campaign View Page is Displayed]]>
             </line>
             <line>
-              <![CDATA[VerifyActionEdit Passed]]>
+              <![CDATA[VerifyEditButton Passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- VerifyActionEdit -->
-      </class> <!-- com.haltungcrm.action.VerifyActionEdit -->
+        </test-method> <!-- VerifyEditButton -->
+      </class> <!-- com.haltungcrm.action.VerifyEditButton -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

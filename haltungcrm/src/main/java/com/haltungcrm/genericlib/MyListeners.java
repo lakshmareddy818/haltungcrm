@@ -37,6 +37,11 @@ public class MyListeners implements ITestListener {
 	public void onFinish(ITestContext context) {
 		Reporter.log(context.getName()+"Test Runner Completed", true);
 	}
+	@Override
+	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+	}
 }
 	
 	

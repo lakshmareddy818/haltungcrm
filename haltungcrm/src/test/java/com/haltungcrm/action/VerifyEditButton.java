@@ -17,8 +17,8 @@ import com.haltungcrm.pages.LoginPage;
 public class VerifyEditButton extends BaseTest {
 	
 	
-	   @Test
-	public void VerifyEditButton() throws Throwable {
+	@Test
+	public void VerifyEditButtonTest() throws Throwable {
 			LoginPage lp=new LoginPage();
 			HomePage hp = new HomePage();
 			DisplayingCustomViewDetailsPage dc = new DisplayingCustomViewDetailsPage();
