@@ -12,7 +12,7 @@ import com.haltungcrm.pages.LoginPage;
 
 public class ValidLoginTest extends BaseTest {
 
-	
+	@Test
 	public void loginToApp() throws Throwable {
 		LoginPage lp = new LoginPage();
 		FileLib fl = new FileLib();
