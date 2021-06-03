@@ -1,17 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Default testTest Runner Started]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[VerifyDeleteButtonTest Started]]>
+    </line>
+    <line>
+      <![CDATA[HomePage is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Custom View Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Campaign View Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[VerifyDeleteButtonTest Passed]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1254" started-at="2021-06-03T11:59:24 IST" finished-at="2021-06-03T11:59:25 IST">
+  <suite name="Default suite" duration-ms="14259" started-at="2021-06-03T13:27:59 IST" finished-at="2021-06-03T13:28:14 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1254" started-at="2021-06-03T11:59:24 IST" finished-at="2021-06-03T11:59:25 IST">
-      <class name="com.haltungcrm.genericlib.CustomReports">
-        <test-method status="PASS" signature="runReports()[pri:0, instance:com.haltungcrm.genericlib.CustomReports@1fc2b765]" name="runReports" duration-ms="1189" started-at="2021-06-03T11:59:24 IST" finished-at="2021-06-03T11:59:25 IST">
+    <test name="Default test" duration-ms="14259" started-at="2021-06-03T13:27:59 IST" finished-at="2021-06-03T13:28:14 IST">
+      <class name="com.haltungcrm.action.VerifyDeleteButton">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.haltungcrm.action.VerifyDeleteButton@544a2ea6]" name="openBrowser" is-config="true" duration-ms="12330" started-at="2021-06-03T13:27:59 IST" finished-at="2021-06-03T13:28:12 IST">
           <reporter-output>
+            <line>
+              <![CDATA[LoginPage is Displayed]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- runReports -->
-      </class> <!-- com.haltungcrm.genericlib.CustomReports -->
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="VerifyDeleteButtonTest()[pri:0, instance:com.haltungcrm.action.VerifyDeleteButton@544a2ea6]" name="VerifyDeleteButtonTest" duration-ms="1894" started-at="2021-06-03T13:28:12 IST" finished-at="2021-06-03T13:28:14 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[VerifyDeleteButtonTest Started]]>
+            </line>
+            <line>
+              <![CDATA[HomePage is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Custom View Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Campaign View Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[VerifyDeleteButtonTest Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyDeleteButtonTest -->
+      </class> <!-- com.haltungcrm.action.VerifyDeleteButton -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

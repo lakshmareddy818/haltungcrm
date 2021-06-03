@@ -35,7 +35,7 @@ public class VerifyDeleteButton extends BaseTest {
 		wd.verify(wd.getPageTitle(),fl.readPropData(PROP_PATH,"CustomViewTitle") , "Custom View Page");
 		dc.clickflipkart();
 		wd.verify(wd.getPageTitle(), fl.readPropData(PROP_PATH, "campaigndetails"), "Campaign View Page");
-		
+		dd.clickdeleteBtn();
 		Thread.sleep(2000);
 		Alert al = driver.switchTo().alert();
 		al.accept();

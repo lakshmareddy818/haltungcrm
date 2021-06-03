@@ -23,6 +23,7 @@ public class VerifyEditButton extends BaseTest {
 			DisplayingCustomViewDetailsPage dc = new DisplayingCustomViewDetailsPage();
 			CreateCampaignPage cc = new CreateCampaignPage();
 			EditDetailsPage ed = new EditDetailsPage();
+			
 			ValidLoginTest vl=new ValidLoginTest();
 			
 			FileLib fl = new FileLib();

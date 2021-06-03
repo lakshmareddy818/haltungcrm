@@ -28,7 +28,7 @@ public class BaseTest implements IAutoConsts{
 		WebDriverCommonLib wlib=new WebDriverCommonLib();
 		wlib.verify(wlib.getPageTitle(),flib.readPropData(PROP_PATH,"loginTitle"),"LoginPage");
 	}
-	@AfterClass(enabled=true)
+	@AfterClass(enabled=false)
 	public void closeBrowser() {
 		driver.quit();
 	}
