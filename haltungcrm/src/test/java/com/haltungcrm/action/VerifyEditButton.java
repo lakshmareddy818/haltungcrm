@@ -17,17 +17,18 @@ import com.haltungcrm.pages.LoginPage;
 public class VerifyEditButton extends BaseTest {
 	
 	
-	@Test
-	public void VerifyEditButtonTest() throws Throwable {
-			LoginPage lp=new LoginPage();
+	   @Test
+	        public void VerifyEditButtonTest() throws Throwable {
 			HomePage hp = new HomePage();
 			DisplayingCustomViewDetailsPage dc = new DisplayingCustomViewDetailsPage();
 			CreateCampaignPage cc = new CreateCampaignPage();
 			EditDetailsPage ed = new EditDetailsPage();
+			ValidLoginTest vl=new ValidLoginTest();
+			
 			FileLib fl = new FileLib();
 			WebDriverCommonLib wd = new WebDriverCommonLib();
 			
-			lp.login(fl.readPropData(PROP_PATH, "username"),fl.readPropData(PROP_PATH, "password"));
+			vl.loginToApp();
 			wd.verify(wd.getPageTitle(),fl.readPropData(PROP_PATH, "homeTitle"), "Home Page");
 			hp.clickCampaignsLink();
 			wd.verify(wd.getPageTitle(),fl.readPropData(PROP_PATH, "CustomViewTitle"), "Custom View Page");
@@ -38,6 +39,7 @@ public class VerifyEditButton extends BaseTest {
 			//wd.verify(wd.getPageTitle(),fl.readPropData(PROP_PATH, "editcampaign"), "Edit Page");
 			//Thread.sleep(2000);
 			ed.enternumsent("20");
+			ed.clicksaveBtn();
 			
 
 		}

@@ -11,8 +11,6 @@ public class HomePage {
 	//we are storing the element's address of home page here
 	//Declaration
 	//@Find by (locatorName="locatorValue") accessSpecifier ReturnType elementName
-	//click on lead module
-	//@FindBy(xpath="//a[text()='Leads']") private WebElement leadsLink;
 	
 	
 	@FindBy(xpath="//a[text()='Campaigns']") private WebElement campaignsLink;
@@ -38,18 +36,10 @@ public class HomePage {
 		campaignsLink.click();
 		
 	
-		/*
-		 * public WebElement getLeadsLink() { return leadsLink;
-		 * 
-		 * 
-		 * } public void clickLeadsLink() {
-		 * 
-		 * leadsLink.click();
-		 */}
-	
+		
 	}
 		
-
+}
 
 
 
