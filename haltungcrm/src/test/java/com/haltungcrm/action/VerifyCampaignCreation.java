@@ -49,17 +49,23 @@ import com.haltungcrm.pages.HomePage;
 	wd.elementStatus("displayed",dc.getNewCampaignBtn(),"New Campaign Button");
 	
 	dc.clickNewCampaignBtn();
-	Thread.sleep(3000);
+	
 	wd.verify(wd.getPageTitle(), fl.readPropData(PROP_PATH,  "CreateCampaignTitle"), "Create Campaign Page");
 	
 	//enter campaign name
 	CreateCampaignPage cc = new CreateCampaignPage();
+	
 	wd.elementStatus("displayed", cc.getCampaignName(),"campaign Name Text Field");
+	
 	cc.enterCampaignName("Reddy");
+	
 	wd.elementStatus("displayed", cc.getSaveBtn(), "Save Button");
+	
 	cc.clicksaveBtn();
-	Thread.sleep(3000);
+	//Thread.sleep(3000);
+	
 	wd.elementStatus("displayed", hp.getCampaignsLink(),"Campaigns Link");
+	
 	hp.clickCampaignsLink();
 	//Thread.sleep(2000);
 	

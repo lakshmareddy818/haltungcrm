@@ -8,47 +8,47 @@
       <![CDATA[LoginPage is Displayed]]>
     </line>
     <line>
-      <![CDATA[VerifyEditButtonTestStarted]]>
+      <![CDATA[verifyCampaignTestStarted]]>
     </line>
     <line>
-      <![CDATA[Home Page is Displayed]]>
+      <![CDATA[ Home Page is Displayed]]>
     </line>
     <line>
-      <![CDATA[Displaying Custom View Details is Displayed]]>
+      <![CDATA[Custom View Page is Displayed]]>
     </line>
     <line>
       <![CDATA[Create Campaign Page is Displayed]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13209" started-at="2021-06-07T12:34:35 IST" finished-at="2021-06-07T12:34:48 IST">
+  <suite name="Default suite" duration-ms="32433" started-at="2021-06-07T12:40:00 IST" finished-at="2021-06-07T12:40:32 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13209" started-at="2021-06-07T12:34:35 IST" finished-at="2021-06-07T12:34:48 IST">
-      <class name="com.haltungcrm.action.VerifyEditButton">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.haltungcrm.action.VerifyEditButton@544a2ea6]" name="openBrowser" is-config="true" duration-ms="7181" started-at="2021-06-07T12:34:35 IST" finished-at="2021-06-07T12:34:42 IST">
+    <test name="Default test" duration-ms="32433" started-at="2021-06-07T12:40:00 IST" finished-at="2021-06-07T12:40:32 IST">
+      <class name="com.haltungcrm.action.VerifyCampaignCreation">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.haltungcrm.action.VerifyCampaignCreation@544a2ea6]" name="openBrowser" is-config="true" duration-ms="17128" started-at="2021-06-07T12:40:00 IST" finished-at="2021-06-07T12:40:17 IST">
           <reporter-output>
             <line>
               <![CDATA[LoginPage is Displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="VerifyEditButtonTest()[pri:0, instance:com.haltungcrm.action.VerifyEditButton@544a2ea6]" name="VerifyEditButtonTest" duration-ms="5713" started-at="2021-06-07T12:34:42 IST" finished-at="2021-06-07T12:34:48 IST">
+        <test-method status="PASS" signature="verifyCampaignTest()[pri:0, instance:com.haltungcrm.action.VerifyCampaignCreation@544a2ea6]" name="verifyCampaignTest" duration-ms="14975" started-at="2021-06-07T12:40:17 IST" finished-at="2021-06-07T12:40:32 IST">
           <reporter-output>
             <line>
-              <![CDATA[VerifyEditButtonTestStarted]]>
+              <![CDATA[verifyCampaignTestStarted]]>
             </line>
             <line>
-              <![CDATA[Home Page is Displayed]]>
+              <![CDATA[ Home Page is Displayed]]>
             </line>
             <line>
-              <![CDATA[Displaying Custom View Details is Displayed]]>
+              <![CDATA[Custom View Page is Displayed]]>
             </line>
             <line>
               <![CDATA[Create Campaign Page is Displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- VerifyEditButtonTest -->
-      </class> <!-- com.haltungcrm.action.VerifyEditButton -->
+        </test-method> <!-- verifyCampaignTest -->
+      </class> <!-- com.haltungcrm.action.VerifyCampaignCreation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
