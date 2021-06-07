@@ -5,6 +5,7 @@
       <class name="com.haltungcrm.action.VerifyCampaignCreation"/>
       <class name="com.haltungcrm.action.VerifyDeleteButton"/>
       <class name="com.haltungcrm.action.VerifyEditButton"/>
+      
     </classes>
   </test> 
 </suite> 

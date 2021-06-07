@@ -2,6 +2,7 @@ package com.haltungcrm.genericlib;
 
 import java.io.File;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
@@ -11,6 +12,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
 
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.google.common.io.Files;
 
 public class WebDriverCommonLib extends BaseTest{
@@ -61,12 +64,63 @@ public class WebDriverCommonLib extends BaseTest{
 		}
 		else  {
 			
-			Reporter.log(elementName+"is not Displayed", true);
-			Assert.assertTrue(true);
+			Reporter.log(elementName+"is not Displayed", false);
+			Assert.assertTrue(false);
 		}
 	}
 
 	
+	  public String getPageTitle1() { 
+		  // TODO Auto-generated method stub return
+	 return null;
+	  }
+	 	public void switchToPopupAndClickonOkBtn() {
+		Alert al=driver.switchTo().alert();
+		al.accept();
+	}
+public void switchToPopupAndClickonCancelBtn () {
+	Alert al=driver.switchTo().alert();
+	al.dismiss();
+}
+public void elementStatus(String checkType, WebElement element, String elementName) {
+
+	switch (checkType) {
+	case "displayed":
+		try {
+			element.isDisplayed();
+			MyListeners.test.info(MarkupHelper.createLabel(elementName + " is Displayed",
+					ExtentColor.PINK));
+		} catch (Exception e) {
+			MyListeners.test.info(MarkupHelper.createLabel(elementName + " is not Displayed ",
+					ExtentColor.ORANGE));
+		}
+		break;
+
+	case "enabled":
+		try {
+			element.isEnabled();
+			MyListeners.test.info(MarkupHelper.createLabel(elementName + " is Enabled",
+					ExtentColor.PINK));
+		} catch (Exception e) {
+			MyListeners.test.info(MarkupHelper.createLabel(elementName + " is not Enabled ",
+					ExtentColor.ORANGE));
+		}
+		break;
+
+	case "selected":
+		try {
+			element.isSelected();
+			MyListeners.test.info(MarkupHelper.createLabel(elementName + " is Selected",
+					ExtentColor.PINK));
+		} catch (Exception e) {
+			MyListeners.test.info(MarkupHelper.createLabel(elementName + " is not Selected ", 
+					ExtentColor.ORANGE));
+		}
+		break;
+
+	}
+
+}	
 		
 	}
 	

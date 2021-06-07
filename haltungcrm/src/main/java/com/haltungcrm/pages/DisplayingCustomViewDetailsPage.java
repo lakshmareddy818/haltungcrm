@@ -13,16 +13,18 @@ public class DisplayingCustomViewDetailsPage {
 	
    @FindBy(xpath="//input[@value='New Campaign']") private WebElement NewCampaignBtn;
   @FindBy(xpath="//table[@class='secContent']//tbody//tr[*]//td[@class=\"tableData\"][3]") private List<WebElement> campaignList;
-  @FindBy(xpath="//a[text()='n']") private WebElement nlink;
-  @FindBy(xpath="//a[text()='flipkart']") private WebElement flipkartlink;
-	
+	/*
+	 * @FindBy(xpath="//a[text()='n']") private WebElement nlink;
+	 * 
+	 * @FindBy(xpath="//a[text()='flipkart']") private WebElement flipkartlink;
+	 */
 	
    public DisplayingCustomViewDetailsPage()
    {
 	   
    PageFactory.initElements(BaseTest.driver, this);
    	
-}
+   }
    
    
    
@@ -52,8 +54,9 @@ public class DisplayingCustomViewDetailsPage {
 	  }
 	  
 	  }
+}
 
-	public WebElement getNlink() {
+	/*public WebElement getNlink() {
 		return nlink;
 	}
 	public void clicknlink() {
@@ -68,10 +71,10 @@ public class DisplayingCustomViewDetailsPage {
 
     public void clickflipkart() {
     	flipkartlink.click();
-    
+*/    
     
 	
-}	  
-	  }
+	  
+	  
 	  
 	 
